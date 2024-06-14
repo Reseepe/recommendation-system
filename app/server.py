@@ -2,7 +2,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from app.model import find_similar_recipes
-
+#test 
 class UserInput(BaseModel):
     user_input: str
 

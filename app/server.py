@@ -2,7 +2,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from app.model import find_similar_recipes
-#test 
+
 class UserInput(BaseModel):
     user_input: str
 
@@ -13,7 +13,7 @@ def read_root():
     return {'message': 'Recipe Recommendation API'}
 
 @app.post('/recommend')
-def recommend(data: UserInput):
+def recommend(data: UserInput): 
     user_input = data.user_input
     recommendations = find_similar_recipes(user_input)
     return {'recommended_recipes': recommendations}

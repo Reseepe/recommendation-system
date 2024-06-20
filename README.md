@@ -49,7 +49,7 @@ uvicorn app.server:app --port 8080
 
 #### Get Recommendation Recipes
 
-```http
+```
     POST /recommendaton
 ```
 

@@ -4,8 +4,8 @@ This is a repository for the Recipe Recommendation Service using Python and Fast
 
 ## Features
 
--
--
+- Calculating the cosine similarity between scanned ingredients and those in the database
+- Displaying ngredients that closely match the scanned ones.
 
 ## Directory Structure
 

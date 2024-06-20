@@ -77,6 +77,6 @@ Example Response
 }
 ```
 
-## Cloud Computing Team C241-PS428
+Bangkit Team C241-PS428
 
 Bangkit Academy 2024 batch 1

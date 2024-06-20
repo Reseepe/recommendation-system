@@ -53,9 +53,9 @@ uvicorn app.server:app --port 8080
     POST /recommendaton
 ```
 
-| Parameter     | Type      | Description                           |
-| :--------     | :---      | :==========                           |
-| `user_input`  | `string`  | **Required**. Your ingredient list    |
+| Parameter | Type | Description |
+| --------- | ---- | ----------- |
+| `user_input` | `string` | **Required**. Your ingredient list |
 
 Example Request
 
